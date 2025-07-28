@@ -1,0 +1,37 @@
+# Node modules
+node_modules/
+
+# Environment files (sensitive)
+.env
+.env.local
+.env.*.local
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Coverage output
+coverage/
+
+# PM2 process logs and temp files
+*.pid
+*.seed
+*.gz
+*.tgz
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# TRAE or other IDE workspace/project files
+.trae/
+.idea/
+*.swp
+
