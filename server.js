@@ -26,6 +26,8 @@ mongoose.connect(process.env.MONGODB_URI)
 
 
 
+// Routes
+
 app.use("/api/user/auth",authRouter)
 
 // Define port
